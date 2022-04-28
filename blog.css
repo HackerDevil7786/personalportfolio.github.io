@@ -1,0 +1,139 @@
+
+.form
+{
+    border:2px solid blue;
+    width:84%;
+    margin-top:4%;
+    margin-left:3%;
+}
+.blogitem
+{
+    border:2px solid red;
+    display:flex;
+    flex-direction:column;
+    /* align-items:center; */
+     margin-bottom:4%; 
+    /* margin-left: 2%;;  */
+}
+.Cross
+{
+    margin-right:83.5%;
+    transition:transform 1s ease-in;
+}
+.btn 
+{
+    border:2px solid red;
+    /* text-align:center; */
+    border-radius:7px;
+    padding:0.5%;
+    margin-top:0.7%;
+    text-align:left;
+    /* margin:45%; */
+  
+    
+}
+.hamburger
+ {border: 2px solid red;
+    width:15%;
+    position: absolute;
+    cursor: pointer;
+    top: 1.8%;
+    left: 0.5%;
+ }.sidebarGo
+ {
+     
+     transform:translate(-443px,0px);
+     /* position:absolute; */
+ }
+@media (max-width:1000px)
+{
+   /* *
+   {
+       background-color:red;
+   } */
+
+   .blogcontainer
+   {
+       font-size:12px;
+   }
+   .btn button
+   {
+       font-size:12px;
+}
+  .devInfo
+  {
+      width:95%;
+  }
+.name
+{
+    border:2px solid black;
+    font-size:25px;
+    font-weight:bold;
+    width:85%;display:flex;
+        font-family: 'Fira Sans', sans-serif;
+}
+.hello
+{
+    border:2px solid black;
+    font-size:32px;
+    width:85%;
+    display:flex;
+    /* font-family: 'Source Code Pro', monospace; */
+}
+.margin
+{
+    width:95%;
+}
+.about
+{
+border:2px solid black;
+font-size:20px;
+/* width:85%; */
+display:flex;
+}
+.buttons
+{
+border:2px solid black;
+/* margin-top:34px; */
+height:34%;
+display:flex;
+}
+.devPic img
+{
+    display:none;
+    position:absolute;
+}
+
+.moreabout
+{
+   
+    border:2px solid red;
+    font-family: 'Fira Sans', sans-serif;
+    /* margin-top:1.2%; */
+    
+    font-size:11px;
+    /* width:85%; */
+    display:flex;
+}
+
+.infoContainer
+{
+    display:flex;
+    /* background-color:blue; */
+    border:2px solid black;
+    height:78vh;
+    width:80vw;
+    justify-content:space-around;
+    margin-top:7%;
+    
+    /* flex-direction:column; */
+}
+.main
+{
+    width:100%;
+}
+.text_decoration_none 
+{
+    font-size:10px;
+}
+}

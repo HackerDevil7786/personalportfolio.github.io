@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.container 
+{
+    display:flex;
+    flex-direction:row;
+    /* background-color:black; */
+    /* border:2px solid red; */
+}
+
+.font
+{
+    font-size:18px;
+    font-family: 'Source Code Pro', monospace;
+    /* color:white; */
+}
+.mb-3
+{
+    /* border:2px solid red; */
+    margin:0.3%;
+    width:50%;
+    margin:1.8% auto;
+}
+form
+{
+    border:2px solid blue;
+    width:84%;
+    margin-top:8%;
+}
+h1
+{
+    border:2px solid red;
+    text-align:center;
+    font-family: 'Source Code Pro', monospace;
+    /* color:white; */
+    margin-bottom:5%;
+}
+.form-label
+{
+    border:2px solid red;
+    width:100%;
+    /* font-family: 'Source Code Pro', monospace; */
+   
+}
+.btn 
+{
+    border:2px solid red;
+    text-align:center;
+    border-radius:7px;
+    padding:0.5%;
+    margin-top:0.7%;
+    
+    /* margin:45%; */
+  
+    
+}
+.btn button
+{
+    border:2px solid red;
+    /* background-color:rgb(18, 129, 233); */
+    font-size:20px;
+    /* color:white; */
+    /* margin-left:45%; */
+}
+button:hover
+{
+    background-color:red;
+    cursor:pointer;
+}
+.form-control
+{
+    display:block;
+    border:2px solid red;
+    width:95%;
+   font-size:18px;
+    height:100%;
+}
+.navbar
+{
+    border:2px solid red;
+    display:flex;
+    width:100%;
+    height:100%;
+    /* align-items:center; */
+}
+.sidebar
+{
+    /* background-color: red; */
+    /* border:2px solid red; */
+    display: flex;
+    font-family: 'Fira Sans', sans-serif;
+    border: 2px solid green;
+    /* background-color: red; */
+    width: 16%;
+    height:100%;
+    justify-content: center;
+    transition:transform 1s ease-in;
+}
+.sidebar ul
+{
+
+    margin: 25% 0%;
+    height: 68%;
+    /* height: 76%; */
+    /* background-color: red; */
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    /* margin-top: 61%; */
+    /* justify-content: center;*/
+}
+.sidebar li
+{
+    
+    /* background-color:green; */
+    /* height: 100%; */
+    width: 100%;
+    /* margin-top:30%; */
+    margin-bottom:31%;
+    /* margin-top: 75%; */
+    display: flex;
+    border: 2px solid black;
+    list-style: none;
+    font-size: 23px;
+    /* padding-bottom: 12%; */
+    /* padding-top: 12%; */
+    /* margin: 15px; */
+    justify-content: center;
+}
+.text_decoration_none
+{
+    border:2px solid red;
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    margin-top:2%;
+    /* background-color:black; */
+    /* background-color:#139ed7; */
+    /* color:white; */
+    text-decoration:none;font-size:24px;
+    justify-content:Center;
+    font-size:18px;
+
+}
